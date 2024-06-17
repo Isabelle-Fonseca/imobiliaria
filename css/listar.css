@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1.titulo {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #fff;
+}
+
+th, td {
+    font-family: sans-serif;
+}
+
+th{
+    text-align: center;
+}
+h3{
+    font-family: "Playfair Display", sans-serif;
+    color: rgb(112, 201, 236);
+}
+
+body{
+    height: 100vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.747)), url(../imagens/teste4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+div.mb-4{
+    /* background-color: rgb(112, 201, 236); */
+    padding:24px 0 0 0;
+    color: rgb(112, 201, 236);;
+}
+
+.container{
+    background-color: #222121d8;
+    border-radius: 14px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
